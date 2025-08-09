@@ -1,0 +1,24 @@
+/* Améliorations visuelles */
+body { font-family: 'Inter', system-ui, Arial, sans-serif; }
+
+h1 { font-weight: 600; letter-spacing: .5px; }
+
+/* Cards style */
+.control-panel { background:#1f2530; padding:1rem 1.2rem; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,.4); }
+.graph-panel { background:#1b222c; padding:0.6rem 0.8rem 1rem; border-radius:8px; margin-bottom:1rem; box-shadow:0 2px 4px rgba(0,0,0,.35); }
+.graph-panel h4 { margin-top:0.2rem; }
+
+label { font-size:.8rem; text-transform:uppercase; font-weight:600; letter-spacing:.5px; margin-top:.75rem; }
+
+/* Range slider tweak */
+.rc-slider-rail { background:#394656 !important; height:6px; }
+.rc-slider-track { background:#3f8cff !important; height:6px; }
+.rc-slider-handle { border-color:#3f8cff !important; width:16px; height:16px; margin-top:-5px; box-shadow:0 0 0 4px rgba(63,140,255,.25); }
+.rc-slider-handle:active { box-shadow:0 0 0 6px rgba(63,140,255,.35); }
+.rc-slider-dot { display:none; }
+.rc-slider-mark { font-size:10px; color:#b0bccb; }
+
+footer { opacity:.7; }
+
+/* Ranking bar value text */
+.graph-panel .bars text { fill:#fff; }
